@@ -3,7 +3,7 @@ from .netscan import Netscan
 
 
 version = 'Netscan version 0.1.0'
-output = "\nA Simple Network Scanning Utility"
+output = "\n\tA Simple Network Scanning Utility"
 help = "\nhelp needed"
 help += "\neg.\tnetscan\n\tnetscan -h"
 
@@ -25,17 +25,7 @@ def main():
             else:
                 output += "\nPress '-h' or '--help for help'"
                 print(version+output)
-            
-    
-    # print('in main')
-    # print('count of args :: {}'.format(len(args)))
-    # for arg in args:
-    #     print('passed argument :: {}'.format(arg))
 
-    # my_function('hello world')
-
-    # my_object = MyClass('Thomas')
-    # my_object.say_name()
 
 if __name__ == '__main__':
     main()
