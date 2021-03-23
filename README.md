@@ -1,8 +1,8 @@
 # Netscan
-###Windows10
+### Windows10
 Netscan is a user-friendly CLI-based Network Scanning Utility used for listing active devices on a network and scanning open ports on that device.
 
-##How to Install
+## How to Install
 To install Netscan, you first need to clone this repo in a directory of your choice.
 ```
 git clone https://github.com/ThomasDevyesh/Netscan.git
