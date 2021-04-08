@@ -1,8 +1,15 @@
 # Netscan
-### Windows10
 Netscan is a user-friendly CLI-based Network Scanning Utility used for listing active devices on a network and scanning open ports on that device.
 
+> For Windows10
 ## How to Install
+### Requirements
+- Must have Winpcap installed on your pc
+```
+https://www.winpcap.org/install/bin/WinPcap_4_1_3.exe
+```
+- Python (with pip)
+ 
 To install Netscan, you first need to clone this repo in a directory of your choice.
 ```
 git clone https://github.com/ThomasDevyesh/Netscan.git
